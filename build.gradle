@@ -1,0 +1,15 @@
+group 'antiswear'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'net.dv8tion:JDA:3.5.1_339'
+    compile 'com.google.guava:guava:24.1-jre'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
